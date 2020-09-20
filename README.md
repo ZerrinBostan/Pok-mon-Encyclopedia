@@ -1,1 +1,1 @@
-# Pok-mon-Encyclopedia
+# Pokemon-Encyclopedia
