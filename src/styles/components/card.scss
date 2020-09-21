@@ -1,0 +1,48 @@
+.pokemon-cards {
+  display: flex;
+  justify-content: center;
+
+  .card {
+    &__title {
+      font-family: 'Indie Flower', cursive;
+      font-size: 30px;
+      display: block;
+      padding-top: 46px;
+      text-transform: uppercase;
+      animation: moveInMain 1s ease-out;
+      text-shadow: 2px 2px 5px $darkslategrey;
+      transition: transform 1.5s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      span {
+        font-size: 32px;
+        margin-left: 5px;
+      }
+    }
+
+    &__body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    svg {
+      justify-content: center;
+    }
+
+    .card-img-top {
+      height: 300px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.search-content {
+  display: flex;
+  align-items: center;
+
+  .btn {
+    width: 100%;
+    background: $candle-light;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,15 @@
+.progress {
+  border: 2px solid;
+  height: 37px !important;
+
+  &-bar {
+    background: linear-gradient(
+      to right top,
+      $wild-blue-yonder,
+      $blue-marguerite,
+      $truv,
+      $royal-blue,
+      $electric-viole
+    );
+  }
+}
